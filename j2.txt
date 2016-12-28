@@ -1,0 +1,8 @@
+start
+variable name c_lan php html total, ave
+print enter values
+input values 
+formula total
+formula ave
+print all values
+end

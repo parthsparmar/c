@@ -1,3 +1,4 @@
+/* Write a program to accept a number and print if the number is Positive/Negative */
 #include<stdio.h>
 #include<conio.h>
 void main()

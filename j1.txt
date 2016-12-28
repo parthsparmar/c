@@ -1,0 +1,10 @@
+start
+variable a b temp
+print value a
+accept value
+print value b
+accept value 
+interchange value
+print a 
+print b
+end

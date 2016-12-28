@@ -1,4 +1,4 @@
-/* Write a program to accept two number and print largest among them */
+/* Write a program to accept two numbers from user and compare them */
 #include<stdio.h>
 #include<conio.h>
 void main()
@@ -9,13 +9,19 @@ void main()
 	scanf("%d",&a);
 	printf("\n Enter Value of b : ");
 	scanf("%d",&b);
-	if (a > b)
+	if (a < b)
 	{
-		printf("\n a is largest value %d : ",a);
+		printf("\n b is greater ");
+	}
+	else if (a > b)
+	{
+		printf("\n a is greater ");
 	}
 	else
 	{
-		printf("\n b is largest value %d : ",b);
+		printf("\n equal ");
 	}
+	
+
 	getch();
 }

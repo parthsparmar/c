@@ -1,0 +1,10 @@
+1. Write a program to accept two values a & b and interchange their values
+2. Write a program to accept roll no and marks of 3 subjects of a student, Calculate total of 3 subjects and average
+3. Print following outputs: http:\\www.kodegod.com\new 
+4. Write a program to accept two number and print largest among them
+5. Write a program to accept a number and print if the number is Positive/Negative 
+6. Write a program to accept a number and check if it is >10, <10 or =10
+7. Write a program to accept a number from user and print if it is even or odd
+8. Write a program to accept a number from user and print if it is divisible by 5 
+9. Write a program to accept a number from user and print if it is multiple of 7 i
+10. Write a program to accept two numbers from user and compare them

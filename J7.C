@@ -1,3 +1,4 @@
+/* Write a program to accept a number from user and print if it is even or odd */
 #include<stdio.h>
 #include<conio.h>
 void main()

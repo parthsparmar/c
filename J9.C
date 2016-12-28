@@ -1,26 +1,19 @@
+/* Write a program to accept a number from user and print if it is multiple of 7 i */
 #include<stdio.h>
 #include<conio.h>
 void main()
 {
-	int a,b;
+	int a;
 	clrscr();
-	printf("\n Enter Value of a : ");
+	printf("\n Enter 1st value: ");
 	scanf("%d",&a);
-	printf("\n Enter Value of b : ");
-	scanf("%d",&b);
-	if (a < b)
+	if(a%7 == 0)
 	{
-		printf("\n b is greater ");
-	}
-	else if (a > b)
-	{
-		printf("\n a is greater ");
+		printf("%d a is multiple of 7");
 	}
 	else
 	{
-		printf("\n equal ");
+		printf("Entered Number is not multiple of 7");
 	}
-	
-
 	getch();
 }

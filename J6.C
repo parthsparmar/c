@@ -1,3 +1,4 @@
+/* Write a program to accept a number and check if it is >10, <10 or =10 */
 #include<stdio.h>
 #include<conio.h>
 void main()
