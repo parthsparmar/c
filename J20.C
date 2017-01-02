@@ -18,8 +18,8 @@ void main()
 	while(number!=0)
 	{
 
-		index = index + pow(number % 10,count); // 3
-		number = number / 10; //
+		index = index + pow(number % 10,count); 
+		number = number / 10;
 	}
 
 	if(copy_n==index)
