@@ -79,9 +79,9 @@ void add_new_employee()
 }
 
 void save_employee(int emp_id, char emp_name[], float salary)
-{	
+{
 	emp *current,*temp;
-	
+
 	if (empinfo == NULL)
 	{
 		empinfo =(emp*) calloc(1,sizeof(emp));
@@ -104,7 +104,7 @@ void save_employee(int emp_id, char emp_name[], float salary)
 			empinfo = temp;
 		}
 	}
-	
+
 	current = empinfo+empcount;
 	current->empId = emp_id;
 	strcpy(current->empName,emp_name);
@@ -115,14 +115,22 @@ void save_employee(int emp_id, char emp_name[], float salary)
 void view_employee()
 {
 	emp *current = empinfo;
-	int i;
+	int i,temp_emp_id;
 	printf("\n empcount:%d",empcount);
+
+	printf("\n Enter Emp Id: ");
+	scanf("%d",&temp_emp_id);
+
 	for(i = 0;i < empcount; i++)
+	{
+	if(temp_emp_id == current->empId)
 	{
 		printf("\n emp id: %d",current->empId);
 		printf("\n emp name: %s",current->empName);
 		printf("\n salary: %f",current->salary);
-		current++;
+		break;
+	}
+	       current++;
 	}
 	getch();
 }
